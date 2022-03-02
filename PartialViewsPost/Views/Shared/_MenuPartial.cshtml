@@ -1,0 +1,17 @@
+﻿@{
+
+    string rol = "ADMIN";
+}
+
+@if (rol == "ADMIN")
+{
+    <li class="nav-item">
+        <a class="nav-link">Log In Admin</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-controller="Admin" asp-action="Index">Index Admin</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link">Opciones Admin</a>
+    </li>
+}
