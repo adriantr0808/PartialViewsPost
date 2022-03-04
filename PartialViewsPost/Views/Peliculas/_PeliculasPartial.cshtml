@@ -1,0 +1,19 @@
+﻿@model List<Pelicula>
+<table class="table table-info">
+    <thead>
+        <tr>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Velocida Máxima</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Pelicula p in Model)
+        {
+<tr>
+    <td>@p.IdPelicula.</td>
+    <td>@p.Nombre.</td>
+    <td>@p.Genero</td>
+</tr>}
+    </tbody>
+    </table>

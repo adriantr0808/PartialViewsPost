@@ -1,0 +1,20 @@
+﻿
+<h1>Vistas Parciales Ajax</h1>
+
+@section Scripts{
+
+    <script>
+        $(document).ready(function () {
+
+            $("#cargarPeliculas").click(function () {
+                $("#cajapeliculas").load("/Peliculas/_PeliculasPartial");
+            });
+        });
+    </script>
+}
+
+<button id="cargarPeliculas" class="btn btn-primary">Cargar peliculas</button>
+<hr/>
+<div id="cajapeliculas">
+
+</div>
