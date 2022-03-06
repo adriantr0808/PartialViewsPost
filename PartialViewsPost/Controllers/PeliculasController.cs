@@ -25,7 +25,7 @@ namespace PartialViewsPost.Controllers
         {
 
             
-            return View(this.peliculas);
+            return View();
         }
 
         public IActionResult _PeliculasPartial()
